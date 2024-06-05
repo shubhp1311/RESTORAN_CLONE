@@ -1,0 +1,304 @@
+.container{
+    height: auto;
+    width: 1500px;
+    background-color: rgb(252, 249, 245);
+}
+
+.nav{
+    height: 800px;
+    width: auto;
+    background-image: url('C:/Users/sakshi/OneDrive/Desktop/REACT/mernstack/src/images/j.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+/* .bg{
+    height: 800px;
+    width: auto;
+    background-color: black;
+    opacity: 0.8;
+} */
+.rest{
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+}
+.logo{
+    height: 100px;
+    width: 300px;
+    /* background-color: orange; */
+    float: left;
+}
+.home{
+    height: 100px;
+    width: 810px;
+    /* background-color: gray; */
+    float: left;
+}
+.btn{
+    height: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    
+}
+.enjoy{
+    height: 600px;
+    width: 550px;
+    /* background-color: green; */
+    padding-left: 30px;
+    color: black;
+}
+.rot{
+    height: 600px;
+    width: 550px;
+    /* background-color: yellow; */
+}
+.rotate{
+    animation: mymove 10s infinite;
+}
+@keyframes mymove {
+    100% {transform: rotate(180deg);}
+}
+.flex{
+    height: 300px;
+    width: auto;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex > .flex1, .flex2, .flex3, .flex4{
+    height: 220px;
+    width: 220px;
+    background-color: white;
+}
+/* .flex1:hover{ 
+    background-color: orange;
+    color: white;
+} 
+.flex2:hover{ 
+    background-color: orange;
+    color: white;
+} 
+.flex3:hover{ 
+    background-color: orange;
+    color: white;
+}  */
+/* .flex4:hover{ 
+    background-color: orange;
+    color: white;
+}   */
+/* #iconn:hover{
+    color: white;
+    background-color: white;
+} */
+.about{
+    height: 600px;
+    width: auto;
+    /* background-color: aqua; */
+}
+.a1{
+    height: 600px;
+    width: 560px;
+    /* background-color: green; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.a2{
+    height: 600px;
+    width: 550px;
+    /* background-color: rgb(160, 176, 160); */
+    float: left;
+}
+.adiv1{
+    height: 280px;
+    width: 260px;
+    background-color: gray;
+    float: left;
+}
+.adiv2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(177, 64, 64);
+    float: left;
+    margin-top: 80px;
+    margin-right: 60px;
+}
+.adiv3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(18, 47, 190);
+    float: left;
+    margin-bottom: 80px;
+    margin-left: 60px;
+}
+.adiv4{
+    height: 280px;
+    width: 260px;
+    background-color: rgb(255, 0, 0);
+    float: left;
+}
+.div21{
+    height: 70px;
+    width: 270px;
+    /* background-color: green; */
+    float: left;
+    border-left: 7px solid orange;
+}
+.div15{
+    height: 70px;
+    width: 80px;
+    /* background-color: yellow; */
+    float: left;
+}
+.year{
+    height: 70px;
+    width: 150px;
+    /* background-color: blue; */
+    float: left;
+    margin-top: 20px;
+}
+.div22{
+    height: 70px;
+    width: 260px;
+    /* background-color: rgb(128, 0, 26); */
+    float: left;
+    border-left: 7px solid orange;
+}
+.food{
+    height: 700px;
+    width: auto;
+    margin-top: -60px;
+    /* background-color: blueviolet; */
+}
+.food1{
+    font-family: cursive;
+    text-align: center;
+}
+.food2{
+    float: left;
+}
+.food3{
+    float: left;
+}
+.propflex{
+    height: 500px;
+    width: 1110px;
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.propflex > .pf1{
+    height: 120px;
+    width: 550px;
+    /* border: 2px solid black; */
+}
+.pf2{
+    height: 120px;
+    width: 120px;
+    /* background-color: orange; */
+    float: left;
+}
+.pf3{
+    height: 120px;
+    width: 425px;
+    /* background-color: yellow; */
+    float: left;
+}
+.pf31{
+    height: 60px;
+    width: 425px;
+    /* background-color: blue; */
+    border-bottom: 2px solid gray;
+}
+.pf32{
+    height: 60px;
+    width: 425px;
+    /* background-color: rgb(0, 0, 0); */
+}
+.reserve{
+    height: 500px;
+    width: auto;
+    background-color: blue;
+}
+.res1{
+    height: 500px;
+    width: 560px;
+    background-color: #485c8e;
+    float: left;
+}
+.res2{
+    height: 500px;
+    width: 550px;
+    background-color: #0F172B;
+    float: left;
+}
+.chefs{
+    height: 200px;
+    width: 1440;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-around;
+}
+.chefs >.chef1{
+    height: 350px;
+    width: 250px;
+    /* background-color: green; */
+    background-color: white;
+}
+.c1{
+    height: 290px;
+    width: 250px;
+    /* background-color: orange; */
+}
+.c2{
+    height: 50px;
+    width: 250px;
+    /* background-color: rgb(251, 0, 255); */
+    /* display: none; */
+}
+.chef1,.c1:hover + .c2{
+    display: block;
+}
+.testflex{
+    height: 300px;
+    width: 1110px;
+    /* background-color: green; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+.testflex > .test1{
+    height: 230px;
+    width: 350px;
+    background-color: white;
+}
+.test1:hover{
+    background-color: orange;
+    color: white;
+}
+.foot{
+    height: 390px;
+    width: auto;
+    background-color: #0F172B;
+    margin-top: -250px;
+    display: flex;
+    justify-content: space-around;
+}
+.foot > .foot1{
+    height: 380px;
+    width: 250px;
+    /* background-color: green; */
+    margin-top: 20px;
+
+}
+.last{
+    background-color: #0F172B;
+}
+
